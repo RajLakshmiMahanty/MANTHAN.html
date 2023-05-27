@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lilita+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lilita+One&display=swap');
+  
+  body{
+    background-color:#FFF1DC;
+  }
+  *
+  {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  nav{
+    
+    font-family: 'Bree Serif', serif;
+    font-size:x-small;
+    font-weight:lighter;
+    align-items:flex-end;
+     color:white ;
+  }
+
+nav ul{
+    display:flex; 
+    list-style-type:none;
+   
+    height:50px;
+    background-color:black ;
+    color: aliceblue;
+}
+#modi1{
+padding-top:15px ;
+padding-inline:5px ;
+
+}
+.brand img{
+width: 85px;
+height:85px;
+}
+.modi img{
+    width: 50px;
+    height:50px;
+    }
+  .brand{
+    display:flex;
+    align-items:center;
+  }
+  .container{
+    min-height:68vh ;
+    background-color:black;
+    color:white;
+    font-family: 'Bree Serif', serif;
+    font-size:10px ;
+    display:flex;
+    width:90%;
+    margin:25px auto;
+     border-radius: 10px;
+     padding-left: 15px;
+     padding-top: 20px;
+     background-image:url('bg.jpg');
+  }
+  .bottom{
+    position:sticky;
+    height: 130px;
+    background-color: black;
+    bottom:0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+  }
+  .icons{
+    margin-top:30px;
+  }
+  .icons i{
+    cursor:pointer;
+
+  }
+
+  #myProgressBar{
+    width:80vw;
+    height: 12px;
+    cursor:pointer;
+  }
+  .songItem{
+    height: 50px;
+    display:flex;
+    background-color:white;
+    height:30px;
+    width:350px;
+    color:black;
+    margin: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+     border-radius: 20px;
+   
+  }
+  .songItem img{
+    width:30px;
+    margin: 0 23px;
+    height:30px;
+    border-radius:15px;
+  }
+  .timestamp{
+    margin: 30px 23px;
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+  .songsItemcontainer{
+    margin-top:80px ;
+  }
+  .songInfo
+  {
+    position: absolute;
+    left: 90px;
+    
+    font-size:12px ;
+  } 
+  .songInfo img
+  {
+   opacity:1;
+   transition: opacity is ease-in
+  }
+  
